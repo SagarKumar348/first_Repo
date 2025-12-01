@@ -1,50 +1,57 @@
-*{
-    padding: 0;
+* {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background: white;
+    padding: 25px 30px;
+    width: 330px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h2 {
     text-align: center;
-    padding: 5px;
+    margin-bottom: 20px;
 }
 
-body{
-    background-color: black;
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #3498db;
     color: white;
-}
-
-
-
-.img-container > img{
-    height: 290px;
-    width: 210px;
-    background-size: cover;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 20px;
-    box-shadow: 5px 5px 20px;
     border: none;
-    transition: transform 0.6s ease;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
-.img-container > img:hover{
-    transform: scale(1.4);
+button:hover {
+    background: #2980b9;
 }
-
-.name{
-    font-size: 30px;
-    font-weight: 700;
-    text-shadow: 5px 5px 20px;   
-}
-
-.portfolio{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-    color: chartreuse;
-    text-shadow: 5px 5px 10px;
-    text-decoration: underline;
-}
-
-.in-expert{
-    font-size: 70px;
-    color: rgb(255, 238, 0);
-}
-
-
